@@ -2,7 +2,7 @@
     {
         wave[i][t] = false;
 
-        int[] comp = compatible[i][t];
+        int[] comp = compatible[i][t];//good
         for (int d = 0; d < 4; d++) comp[d] = 0;
         stack[stacksize] = (i, t);
         stacksize++;
