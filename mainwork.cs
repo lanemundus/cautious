@@ -24,3 +24,4 @@
                 wave[i][t] = true;
                 for (int d = 0; d < 4; d++) compatible[i][t][d] = propagator[opposite[d]][t].Length;
             }
+//yes
