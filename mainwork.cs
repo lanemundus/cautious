@@ -14,7 +14,7 @@
         double sum = sumsOfWeights[i];
         entropies[i] = Math.Log(sum) - sumsOfWeightLogWeights[i] / sum;
     }
-
+//here
     void Clear()
     {
         for (int i = 0; i < wave.Length; i++)
